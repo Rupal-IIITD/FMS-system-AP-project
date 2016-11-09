@@ -5,16 +5,27 @@ Following is the description of what and how we plan to go about it.
 
 Use Cases:
 1. User choice
+
 2. GM Check
+
 3. Login
+
 4. Registration
+
 5. Add
+
 6. Delete by GM
+
 7. View by GM
+
 8. Check
+
 9. Approve
+
 10. Assign
+
 11. Add by supervisor
+
 12. View by supervisor
 13. Delete by supervisor
 14. Logistics
