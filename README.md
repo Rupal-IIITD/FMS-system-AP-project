@@ -70,3 +70,5 @@ Task method will contain taskID, Task Name,Task Description Department,Superviso
 Leave method will contain Leave to Whom, reason, time period as parameters. This method will be called when either supervisor or staff needs to apply for a leave.
 
 Logistic approval request method will have ID, Item with quantities and department as parameters. This method will be called when staff/ supervisor wants to request for material.
+
+Logistic requirement request for task method will have ID, items with quantities, task reference ID as parameters. This method will be called when logistics will be required for the execution of a task.
