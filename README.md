@@ -62,4 +62,4 @@ department).
 4. TaskReport: He will send his task report to the supervisor
 LOGOUT: A use case which will be extended from all the above mentioned use cases as the user can opt to logout from the entire system at any point of time.
 
-
+Login method will contain username and password parameters and the database file will be updated after every successfull login. Else an error message will be shown and user will be asked to login again
