@@ -74,3 +74,15 @@ Logistic approval request method will have ID, Item with quantities and departme
 Logistic requirement request for task method will have ID, items with quantities, task reference ID as parameters. This method will be called when logistics will be required for the execution of a task.
 
 Task Report method will contain ID, Task ID, Task Name, Task Description, Items used, Time Taken, Comments as parameters. This method will be called when the task report needs to be generated.
+
+public class GM {
+    public static void main(String[] args) {
+        /*
+            1. ask him whether he want to operate on supervisor/staff and then ask for whether he want to add/delete/view them
+        if(choice==user)
+           if(choice==add)
+                add(user)
+           else if(choice ==delete)
+                delete(user)
+           else if(choice==view)
+                read(user)
