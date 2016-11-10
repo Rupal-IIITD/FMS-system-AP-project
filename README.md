@@ -75,11 +75,12 @@ Logistic requirement request for task method will have ID, items with quantities
 
 Task Report method will contain ID, Task ID, Task Name, Task Description, Items used, Time Taken, Comments as parameters. This method will be called when the task report needs to be generated.
 
+
 public class GM {
     public static void main(String[] args) {
-       
-       /*
-            1. ask him whether he want to operate on supervisor/staff and then ask for whether he want to add/delete/view them
+        /*
+           
+           1. ask him whether he want to operate on supervisor/staff and then ask for whether he want to add/delete/view them
         if(choice==user)
            if(choice==add)
                 add(user)
@@ -93,3 +94,8 @@ public class GM {
             task(supervisor)
         else if(choice==staff)
             task(staff)
+            
+            3. ask him if he wanna work on logistics requests from staff/supervisor or not.
+        if(ans==yes)
+            check GM text file and search whether he has any request pending or not.
+            if(ans==yes)
