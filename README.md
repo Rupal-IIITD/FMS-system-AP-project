@@ -77,7 +77,8 @@ Task Report method will contain ID, Task ID, Task Name, Task Description, Items 
 
 public class GM {
     public static void main(String[] args) {
-        /*
+       
+       /*
             1. ask him whether he want to operate on supervisor/staff and then ask for whether he want to add/delete/view them
         if(choice==user)
            if(choice==add)
@@ -86,3 +87,9 @@ public class GM {
                 delete(user)
            else if(choice==view)
                 read(user)
+                
+             2. ask him if he wants to assign some tasks to someone? If yes, then -->
+        if(choice==supervisor)
+            task(supervisor)
+        else if(choice==staff)
+            task(staff)
