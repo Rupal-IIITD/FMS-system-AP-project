@@ -99,3 +99,14 @@ public class GM {
         if(ans==yes)
             check GM text file and search whether he has any request pending or not.
             if(ans==yes)
+            
+            
+    }
+    add(String user)
+    {
+        if(already exists)
+                    show a message that it already exists
+                else
+                    add to it's database(it's text file)
+    }
+    
