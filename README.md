@@ -115,3 +115,7 @@ Task Report method will contain ID, Task ID, Task Name, Task Description, Items 
         if(user==supervisor)
              then ask for new supervisor details --> add to database.
     }
+    read(user)
+    {
+        read user's text file
+    }
