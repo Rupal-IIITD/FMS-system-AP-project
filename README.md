@@ -167,3 +167,12 @@ Task Report method will contain ID, Task ID, Task Name, Task Description, Items 
            }
            else if(choice==view)
                 read()
+           2. ask him if he wants to assign some tasks to someone? If yes, then -->
+            task()
+           3. ask him if he wanna work on logistics requests from staff or not. if yes-->
+           check supervisor's text file and search whether he has any request pending or not.
+            if(ans==yes)
+                approve those requests(a field) i.e remove them from his line
+            else
+                print(no request to operate upon)
+                
