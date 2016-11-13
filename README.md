@@ -133,3 +133,10 @@ Task Report method will contain ID, Task ID, Task Name, Task Description, Items 
             /*
 
                 create array list for all the text-documents.
+                 1. Ask him whether he want to send request to supervisor. If yes,
+                    1. Open Supervisor file. Search for the supervisor with same dept.
+                    2. Add request string to it's field.
+                2. Ask him whether he want to send leave request to supervisor or not.
+                    if yes,
+                        1. print(request sent)
+                        2. set the status field as "On leave"
