@@ -127,6 +127,7 @@ Task Report method will contain ID, Task ID, Task Name, Task Description, Items 
     */
     
     
+    
     public class Staff {
     public static void main(String[] args) {
         {
@@ -146,3 +147,17 @@ Task Report method will contain ID, Task ID, Task Name, Task Description, Items 
             */
         }
     }        
+
+
+    public class Supervisor {
+    public static void main(String[] args) {
+        /*
+
+            create array list for all the text-documents.
+
+
+          1. ask him whether he want to operate on staff and then ask for whether he want to add/delete/view them
+           if(choice==add)
+            {
+               add()
+            }
