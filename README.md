@@ -161,3 +161,9 @@ Task Report method will contain ID, Task ID, Task Name, Task Description, Items 
             {
                add()
             }
+            else if(choice ==delete)
+           {
+               delete()
+           }
+           else if(choice==view)
+                read()
