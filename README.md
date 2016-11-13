@@ -125,3 +125,11 @@ Task Report method will contain ID, Task ID, Task Name, Task Description, Items 
         2. also add to task text file.
     }
     */
+    
+    
+    public class Staff {
+    public static void main(String[] args) {
+        {
+            /*
+
+                create array list for all the text-documents.
