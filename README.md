@@ -140,3 +140,9 @@ Task Report method will contain ID, Task ID, Task Name, Task Description, Items 
                     if yes,
                         1. print(request sent)
                         2. set the status field as "On leave"
+                3. Print task text file.
+                4. NOTE: all staff lines in it's text file will have a field namely status --> "busy" or "Available" ,  "leave"
+                5. print the task report of all those tasks whose status is "complete"
+            */
+        }
+    }        
