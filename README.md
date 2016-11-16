@@ -197,4 +197,15 @@ Task Report method will contain ID, Task ID, Task Name, Task Description, Items 
                    else
                         print(sorry, can't add some other dept. member)
     }
+     delete()
+    {
+              --> input the department of that staff member.
+                   if(input==supervisor's dept )
+                        if(already exists in that dept)
+                             delete that staff entry
+                        else
+                               print(doesn't exist)
+                   else
+                        print(sorry, can't delete some other dept.member)
+    }
                 
