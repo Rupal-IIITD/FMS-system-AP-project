@@ -175,4 +175,15 @@ Task Report method will contain ID, Task ID, Task Name, Task Description, Items 
                 approve those requests(a field) i.e remove them from his line
             else
                 print(no request to operate upon)
+           4. ask him whether he want to send any request to GM. If yes -->
+                1. open GM text file
+                2. Add the request string to that file.
+           5. Ask him whether he want to send leave to GM.
+             NOTE: all supervisor lines in it's text file will have a field namely status --> "busy" or "Available" ,  "leave"
+                if yes -->
+                    1.print(leave sent)
+                    2.set the status field as "on leave"
+           6. If he want to view task--> read task text file
+
+    }     
                 
