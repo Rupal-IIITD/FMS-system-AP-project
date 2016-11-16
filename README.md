@@ -208,4 +208,15 @@ Task Report method will contain ID, Task ID, Task Name, Task Description, Items 
                    else
                         print(sorry, can't delete some other dept.member)
     }
+    read()
+    {
+        --> input the department of that staff member.
+                   if(input==supervisor's dept )
+                        if(already exists in that dept)
+                             read it's file
+                        else
+                               print(doesn't exist)
+                   else
+                        print(sorry, can't view some other dept.member)
+     }
                 
