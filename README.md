@@ -225,4 +225,20 @@ Task Report method will contain ID, Task ID, Task Name, Task Description, Items 
          --> input the department of that staff member.
                    if(input==supervisor's dept )
                         if(already exists in that dept)
+                        1. open staff's text file.
+                        2. while(ask for the name of the staff member one by one)
+                                  {
+                                         1. search for that name.
+                                         2. update it's task field.
+                                         3. Also add to task text file.
+                                   }
+                        else
+                               print( member doesn't exist)
+                   else
+                        print(sorry, can't view some other dept.member)
+    }
+
+
+
+         */
                 
