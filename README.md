@@ -15,7 +15,7 @@ This is a repository for our AP project based on designing a FMS system.
     9. Approve
     10. Assign
     11. Add by supervisor
-        12. View by supervisor
+    12. View by supervisor
     13. Delete by supervisor
     14. Logistics
     15. New logistics
@@ -31,23 +31,29 @@ This is a repository for our AP project based on designing a FMS system.
 Design analysis of the project (Brief description of our FMS system and it’s use cases)
 1. Due to obvious reasons, we have considered that GM/admin already exist because without
 them the system can’t exist. So to initiate the system, admin needs to be present at the least.
+
 2. In the diagram we have taken admin(already existing), supervisor and staff. And rest is the
 system having various use cases(i.e. the specific functionalities). And they can balog to any of
 the 5 departments.
+
 3. At the very first step, user is asked to enter his choice(as to which department he belong/will
 belong to.
+
 4. Then as per the department he chooses, he is again prompted to enter another choice for sign
 up/login.
+
 5. Sign-up  In this case, admin puts a check whether he allows the user to be added to the
 system or not. If yes, he is be added to the respective database(based on the department), else
 rejected and returns back to the user choice page.
 Login  In this case, the functionalities’ channel for him opens(based on his post and
 department).
+
 6. ADMIN  he can perform various functionalities(use cases) like:
 1. Delete: he can delete a staff member/supervisor. Then it is being removed from Database.
 2. View: Same as above.
 3. Assign: He can assign a particular task to any staff member or supervisor. This will be taken an input string and added to the database.
 4. Approve/reject: He holds the right to approve/reject any kind of request from supervisor or staff member.
+
 7. SUPERVISOR  he can perform various functionalities(use cases) like:
 1. Add: he can add the staff member. If so, his entry will be added to the database.
 2. Delete: same as above
@@ -56,11 +62,13 @@ department).
 5. ViewTask: To keep a check on the status of the task.
 6. Logistics: To keep a check on whether everything in his department is going properly or not and in case he feels the need of any kind of amendment, he requests the admin for the new logistics  this will be an extended use case since it solely depends on the supervisor whether he wants to make any changes/modifications in the working of the staff.
 7. Leave: can apply for leave to the admin. Same will be updated to the database.
+
 8. STAFF  he can perform various functionalities(use cases) like:
 1. Leave: can apply for leave to the admin. Same will be updated to the database.
 2. Logistics: He can request the supervisor for changes in the logistics. This request will be then processed by the supervisor.
 3. UpdateStatus: He will mention his status as free or busy.
 4. TaskReport: He will send his task report to the supervisor
+
 LOGOUT: A use case which will be extended from all the above mentioned use cases as the user can opt to logout from the entire system at any point of time.
 
 Login method will contain username and password parameters and the database file will be checked after every successfull login. Else an error message will be shown and user will be asked to login again.
