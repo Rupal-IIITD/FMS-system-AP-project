@@ -1,7 +1,7 @@
 # FMS-system-AP-project
 This is a repository for our AP project based on designing a FMS system.
-Contributors: Rupal Jain and Gargi Gupta
-Following is the description of what and how we plan to go about it.
+    Contributors: Rupal Jain and Gargi Gupta
+    Following is the description of what and how we plan to go about it.
 
     Use Cases:
     1. User choice
@@ -27,6 +27,7 @@ Following is the description of what and how we plan to go about it.
     21. Supervisor check
     22. Logout
     23. Leave by supervisor
+
 Design analysis of the project (Brief description of our FMS system and it’s use cases)
 1. Due to obvious reasons, we have considered that GM/admin already exist because without
 them the system can’t exist. So to initiate the system, admin needs to be present at the least.
