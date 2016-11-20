@@ -29,7 +29,7 @@ This is a repository for our AP project based on designing a FMS system.
     22. Logout
     23. Leave by supervisor
 
-Design analysis of the project (Brief description of our FMS system and it’s use cases):
+ Design analysis of the project (Brief description of our FMS system and it’s use cases):
 
 1. Due to obvious reasons, we have considered that GM/admin already exist because without
 them the system can’t exist. So to initiate the system, admin needs to be present at the least.
