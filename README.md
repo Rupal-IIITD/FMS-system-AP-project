@@ -1,7 +1,7 @@
 # FMS-system-AP-project
 This is a repository for our AP project based on designing a FMS system.
     
-    Contributors: Rupal Jain and Gargi Gupta
+    Contributors: Rupal Jain(2015081) and Gargi Gupta(2015029)
     Following is the description of what and how we plan to go about it.
 
     Use Cases:
