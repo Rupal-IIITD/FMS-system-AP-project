@@ -197,6 +197,7 @@ Registration method will contain ID, type, name, username, password, DOB, addres
            6. If he want to view task--> read task text file
 
     }     
+    
     add()
     {
         --> input the department of that staff member.
@@ -208,7 +209,8 @@ Registration method will contain ID, type, name, username, password, DOB, addres
                    else
                         print(sorry, can't add some other dept. member)
     }
-     delete()
+    
+    delete()
     {
               --> input the department of that staff member.
                    if(input==supervisor's dept )
@@ -219,6 +221,7 @@ Registration method will contain ID, type, name, username, password, DOB, addres
                    else
                         print(sorry, can't delete some other dept.member)
     }
+   
     read()
     {
         --> input the department of that staff member.
