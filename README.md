@@ -84,7 +84,7 @@ Registration method will contain ID, type, name, username, password, DOB, addres
 
 -->Logistic requirement request for task method will have ID, items with quantities, task reference ID as parameters. This method will be called when logistics will be required for the execution of a task.
 
-Task Report method will contain ID, Task ID, Task Name, Task Description, Items used, Time Taken, Comments as parameters. This method will be called when the task report needs to be generated.
+-->Task Report method will contain ID, Task ID, Task Name, Task Description, Items used, Time Taken, Comments as parameters. This method will be called when the task report needs to be generated.
 
 
     public class GM {
