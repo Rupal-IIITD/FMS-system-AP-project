@@ -100,7 +100,7 @@ Registration method will contain ID, type, name, username, password, DOB, addres
            else if(choice==view)
                 read(user)
                 
-             2. ask him if he wants to assign some tasks to someone? If yes, then -->
+           2. ask him if he wants to assign some tasks to someone? If yes, then -->
         if(choice==supervisor)
             task(supervisor)
         else if(choice==staff)
@@ -113,6 +113,7 @@ Registration method will contain ID, type, name, username, password, DOB, addres
             
             
     }
+    
     add(String user)
     {
         if(already exists)
@@ -120,7 +121,8 @@ Registration method will contain ID, type, name, username, password, DOB, addres
                 else
                     add to it's database(it's text file)
     }
-     delete(String user)
+    
+    delete(String user)
     {
         delete from database(his text file)
         if(user==supervisor)
