@@ -128,10 +128,12 @@ Registration method will contain ID, type, name, username, password, DOB, addres
         if(user==supervisor)
              then ask for new supervisor details --> add to database.
     }
+    
     read(user)
     {
         read user's text file
     }
+    
     task(user)
     {
         1. update user's text file.
