@@ -86,6 +86,8 @@ Registration method will contain ID, type, name, username, password, DOB, addres
 
 -->Task Report method will contain ID, Task ID, Task Name, Task Description, Items used, Time Taken, Comments as parameters. This method will be called when the task report needs to be generated.
 
+--> We will be using many design patterns in our implementation which will enhance the final output.
+
 
     public class GM {
          public static void main(String[] args) {
