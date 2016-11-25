@@ -239,7 +239,8 @@ Registration method will contain ID, type, name, username, password, DOB, addres
                    else
                         print(sorry, can't view some other dept.member)
      }
-     task()
+    
+    task()
     {
 
          --> input the department of that staff member.
