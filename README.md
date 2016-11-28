@@ -271,7 +271,7 @@ Registration method will contain ID, type, name, username, password, DOB, addres
     private JButton button4;
 }      
 
-/**
+    /**
      * Initialize the contents of the frame.
      */
     private void initialize() {
