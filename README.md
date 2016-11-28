@@ -279,3 +279,7 @@ Registration method will contain ID, type, name, username, password, DOB, addres
         frame.setBounds(100, 100, 408, 327);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setLayout(null);
+        
+         JLabel lblUsername = new JLabel("Username");
+        lblUsername.setBounds(78, 21, 59, 31);
+        frame.getContentPane().add(lblUsername);
