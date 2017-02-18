@@ -1,5 +1,5 @@
 # FMS-system-AP-project
-This is a repository for our AP project based on designing a FMS system.
+This is a repository for our Advanced Programming course project based on designing a FMS system in Java.
     
     Contributors: Rupal Jain(2015081) and Gargi Gupta(2015029)
     Following is the description of what and how we plan to go about it.
@@ -87,7 +87,13 @@ Registration method will contain ID, type, name, username, password, DOB, addres
 -->Task Report method will contain ID, Task ID, Task Name, Task Description, Items used, Time Taken, Comments as parameters. This method will be called when the task report needs to be generated.
 
 --> We will be using many design patterns in our implementation which will enhance the final output.
-
+    import java.awt.*;
+    import java.awt.event.*;
+    import javax.swing.*;
+    import java.io.File;
+    import java.awt.event.ActionEvent;
+    import java.awt.event.ActionListener;
+    import java.io.*;
 
     public class GM {
          public static void main(String[] args) {
