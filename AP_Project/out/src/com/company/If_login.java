@@ -1,5 +1,4 @@
 package com.company;
-
 import java.awt.EventQueue;
 import javax.swing.*;
 import java.awt.Color;
@@ -8,8 +7,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
 import java.util.Arrays;
-
-
 public class If_login {
 
 	public String s=null;
