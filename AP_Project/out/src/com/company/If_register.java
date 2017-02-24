@@ -1,11 +1,22 @@
 package com.company;
-
-import java.awt.*; import javax.swing.JFrame; import java.text.SimpleDateFormat; import java.util.Random;
-import java.io.*; import java.util.*; import java.io.BufferedWriter; import java.io.FileWriter; import javax.swing.JOptionPane;
-import javax.swing.JLabel; import javax.swing.JButton; import java.awt.event.ActionListener; import java.awt.event.ActionEvent;
-import javax.swing.JTextField; import javax.swing.JPasswordField; import javax.swing.JComboBox; import javax.swing.DefaultComboBoxModel;
+import java.awt.*; 
+import javax.swing.JFrame; 
+import java.text.SimpleDateFormat; 
+import java.util.Random;
+import java.io.*; 
+import java.util.*; 
+import java.io.BufferedWriter; 
+import java.io.FileWriter; 
+import javax.swing.JOptionPane;
+import javax.swing.JLabel; 
+import javax.swing.JButton; 
+import java.awt.event.ActionListener; 
+import java.awt.event.ActionEvent;
+import javax.swing.JTextField; 
+import javax.swing.JPasswordField; 
+import javax.swing.JComboBox; 
+import javax.swing.DefaultComboBoxModel;
 import java.io.IOException;
-
 public class if_register {
 
     private JFrame frame;      private JTextField username;
