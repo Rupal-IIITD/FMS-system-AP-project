@@ -181,4 +181,50 @@ public class Staff_login {
             } catch (IOException e1) {
                 e1.printStackTrace();
             }
+		try {
+                in_file.close();
+            } catch (IOException e1) {
+                e1.printStackTrace();
+            }
+            try {
+                out.close();
+            } catch (IOException e1) {
+                e1.printStackTrace();
+            }
+            boolean success = (new File("Task_report.txt")).delete();
+            File oldFile = new File("New_Task_report.txt");
+            File newFile = new File("Task_report.txt");
+
+            if (oldFile.renameTo(newFile)) {
+                //System.out.println("Rename succesful");
+            } else {
+                //System.out.println("Rename failed");
+            }
+        }
+            }
+        });
+		JButton btnTaskReportGenerate = new JButton("Task report generate");
+		btnTaskReportGenerate.setBounds(192, 206, 180, 37);
+        btnTaskReportGenerate.setBackground(Color.LIGHT_GRAY);
+		frame.getContentPane().add(btnTaskReportGenerate);
+        btnTaskReportGenerate.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+
+                String[] argss = {};
+                DocumentViewer.main(argss);
+            }
+        });
+
+        JButton btnViewStatus = new JButton("View Status");
+		btnViewStatus.setBounds(192, 256, 180, 37);
+        btnViewStatus.setBackground(Color.LIGHT_GRAY);
+		frame.getContentPane().add(btnViewStatus);
+        btnViewStatus.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(null, "Your status is available");
+
+            }
+        });
+	}
+}
 		
