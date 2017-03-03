@@ -52,3 +52,21 @@ public class Login_page {
                 String[] argss = {};
                 If_login.main(argss);
             }
+});
+		frmFmsSystem.getContentPane().setLayout(null);
+		
+		JButton btnNewButton = new JButton("Register");
+		btnNewButton.setBackground(Color.LIGHT_GRAY);
+		btnNewButton.setFont(new Font("Arial", Font.BOLD, 15));
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+                String[] argss = {};
+                if_register.main(argss);
+            }
+		});
+		btnNewButton.setBounds(154, 70, 130, 34);
+		frmFmsSystem.getContentPane().add(btnNewButton);
+		frmFmsSystem.getContentPane().add(btnLogin);
+	}
+
+}
