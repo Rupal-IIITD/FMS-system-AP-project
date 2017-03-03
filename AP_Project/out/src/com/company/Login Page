@@ -1,0 +1,54 @@
+package com.company;
+import java.awt.*;
+import javax.swing.JFrame;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+public class Login_page {
+	private JFrame frmFmsSystem;
+	/**
+	 * Launching the application. Setting the frame.
+	 * In the main function frame is being set as visible by using setVisible(true)
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Login_page window = new Login_page();
+					window.frmFmsSystem.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Creating the application by invoking initialize()
+	 */
+	public Login_page() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 * In this function, we have created two JButtons, one for login and one for register.
+	 * Whenever login button is clicked, it is directed to the login page
+	 * Whenever register is clicked, it is directed to the register page.
+	 */
+	private void initialize() {
+		frmFmsSystem = new JFrame();
+		frmFmsSystem.setTitle("      FMS SYSTEM");
+		frmFmsSystem.setBounds(100, 100, 450, 300);
+		frmFmsSystem.getContentPane().setBackground(Color.DARK_GRAY);
+		frmFmsSystem.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		final JButton btnLogin = new JButton("Login");
+		btnLogin.setBounds(174, 120, 88, 34);
+		btnLogin.setBackground(Color.LIGHT_GRAY);
+		btnLogin.setFont(new Font("Arial", Font.BOLD, 15));
+		btnLogin.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+                String[] argss = {};
+                If_login.main(argss);
+            }
